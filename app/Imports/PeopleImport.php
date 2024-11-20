@@ -13,11 +13,6 @@ class PeopleImport implements ToCollection, WithHeadingRow
     */
     public function collection(Collection $rows)
     {
-        foreach ($rows as $row) 
-        {
-            User::create([
-                'name' => $row[0],
-            ]);
-        }
+        
     }
 }

@@ -28,7 +28,7 @@ class DashboardController extends Controller
         ]);
     }
 
-    public function parsePersonName($name)
+    private function parsePersonName($name)
     {
         $titles = ['Mr', 'Mrs', 'Ms', 'Miss', 'Mister', 'Dr', 'Prof'];
 
